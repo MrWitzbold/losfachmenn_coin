@@ -72,4 +72,3 @@ class miner:
         block = self.blockchain.create_block(proof, previous_hash)
         print("Block " + block.index + " has been mined.")
         return block
-
